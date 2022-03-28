@@ -1,6 +1,5 @@
 const add = require('../add.js');
 
-test('', () => {
-  // 테스트 코드 작성!
+test('add', () => {
   expect(add(1, 2)).toBe(3);
 });
